@@ -1,0 +1,19 @@
+{
+  "name": "morningdose",
+  "version": "1.0.0",
+  "description": "Get your morningdose of activities for the day",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Chris B",
+  "license": "MIT",
+  "dependencies": {
+    "alexa-sdk": "^1.0.6",
+    "http": "0.0.0",
+    "https": "^1.0.0",
+    "request": "^2.79.0"
+  },
+  "devDependencies": {}
+}

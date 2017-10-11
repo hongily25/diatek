@@ -1,0 +1,33 @@
+SubjectIntent tell me about {Subject}
+SubjectIntent tell me about my {Subject}
+SubjectIntent open {Subject}
+
+DescribeIntent describe {Subject}
+DescribeIntent describe my {Subject}
+
+CommentIntent comment {Comment}
+CommentIntent respond {Comment}
+CommentIntent reply {Comment}
+CommentIntent post {Comment}
+
+ChangeWorkspaceIntent change workspace
+
+MessageIntent read me my last message
+MessageIntent read my last message
+MessageIntent read my last recent message
+MessageIntent read me the last message  
+MessageIntent read messages
+MessageIntent read my last question
+MessageIntent read comments
+
+HomeIntent no thank you
+HomeIntent no thanks
+HomeIntent go back
+HomeIntent back to summary
+HomeIntent give me my dose
+HomeIntent main menu
+HomeIntent back to menu
+
+WorkspaceIntent workspace {Workspace}
+WorkspaceIntent enter workspace {Workspace}
+WorkspaceIntent set workspace {Workspace}

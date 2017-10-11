@@ -1,0 +1,67 @@
+{
+  "intents": [
+    {
+      "intent": "LaunchRequest"
+    },
+    {
+      "intent": "ChangeWorkspaceIntent"
+    },
+    {
+      "intent": "WorkspaceIntent",
+       "slots": [
+         {
+               "name": "Workspace",
+               "type": "AMAZON.NUMBER"
+         }
+       ]
+    },
+    {
+      "intent": "CommentIntent",
+       "slots": [
+         {
+               "name": "Comment",
+               "type": "COMMENT"
+         }
+      ]
+    },
+    {
+      "intent": "DescribeIntent",
+      "slots": [
+         {
+               "name": "Subject",
+               "type": "SUBJECT"
+         }
+      ]
+    },
+    {
+      "intent": "SubjectIntent",
+      "slots": [
+         {
+               "name": "Subject",
+               "type": "SUBJECT"
+         }
+      ]
+    },
+    {
+      "intent": "MessageIntent"
+    },
+    {
+      "intent": "HomeIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    },
+    {
+      "intent": "AMAZON.NoIntent"
+    },
+    {
+      "intent": "AMAZON.YesIntent"
+    }
+  ]
+}
