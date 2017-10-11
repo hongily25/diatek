@@ -30,6 +30,14 @@ var handlers = {
             watson.configureAuth(this, userId);
         }
     },
+ 
+   'LogFoodIntent': function() {
+      this.emit(':ask', 'Ok. What did you eat?', 'Ok. What did you eat?');
+   },
+ 
+ 'GrilledCheeseIntent': function() {
+      this.emit(':ask', 'One grilled cheese sandwich at 8:18 p.m. recorded. It has 350 calories, 10 grams of carbohydrates, and 2 grams of sugar. Would you like to do something else?', 'Can you please repeat that?');
+   },
 
     'ChangeWorkspaceIntent': function() {
         var userToken = this.event.session.user.accessToken;
