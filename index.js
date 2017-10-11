@@ -35,9 +35,21 @@ var handlers = {
       this.emit(':ask', 'Ok. What did you eat?', 'Ok. What did you eat?');
    },
  
- 'GrilledCheeseIntent': function() {
+  'GrilledCheeseIntent': function() {
       this.emit(':ask', 'One grilled cheese sandwich at 8:18 p.m. recorded. It has 350 calories, 10 grams of carbohydrates, and 2 grams of sugar. Would you like to do something else?', 'Can you please repeat that?');
    },
+ 
+  'MonitorGlucoseIntent': function() {
+    this.emit(":ask","Ok. Your last glucose reading was at 5:15 p.m. It was 70 milligrams per deciliter. Would you like to know more?","Would you like to know more?");
+  },
+ 
+  'TrendIntent': function() {
+   this.emit(":ask","Ok. For the past 7 days, your average glucose level was 81 milligrams per deciliters. That is lower than eighty six per cent of people in your age group. Keep up the good work!","Sorry I didn't get that. Can you please repeat that?");
+  },
+ 
+  'HealthIntent': function() {
+   this.emit(":ask","Ok I've noticed that after eating sushi, your blood glucose level spikes up to 235 milligrams per deciliter. White rice has been found to cause blood sugar spikes. Try replacing white rice with brown rice in your diet.","Sorry I didn't get that. Can you please repeat that?");
+  },
 
     'ChangeWorkspaceIntent': function() {
         var userToken = this.event.session.user.accessToken;
